@@ -17,24 +17,13 @@ p {
 }
 
 .hobbies {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-
-    width: 50%;
-    border: 5px solid grey;
+   width: 50%;
     margin: 2em 0;
     font-size: large;
 }
 
 .favorites {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    width: 50%
-    border: 5px solid grey;
+    width: 50%;    
     margin: 2em 0;
     font-size: large;
 }
@@ -42,7 +31,6 @@ p {
 .container {
     display: flex;
     flex-direction: row;
-    border: 5px solid grey;
     margin: 2em 0;
     font-size: large;
 
