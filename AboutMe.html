@@ -41,7 +41,13 @@
 
     <div class="image and button">
         <img src="tess_4inch.png">
+      <!--  <div>
+            <input type="textbox" width=25 id="list value">
+            <button onclick="myFunc(1500)" class="button" id="submit1">Submit</button>
+        </div>
+
         <button onclick="myFunc(1500)" class="button" id="submit">Submit</button>
+    -->
 
     </div>
     </div>
@@ -64,7 +70,7 @@
     myFunc(3456);
 
 
-    
+    document.getElementById("submit").addEventListener("click", function () { myFunc(1500) } );
 
     
 </script>
