@@ -15,7 +15,11 @@ p {
     margin: 0;
 
 }
-
+.innerbox {
+ border:2px solid orange;
+ padding:3px;
+ margin:10px;   
+}
 .hobbies {
    width: 50%;
     margin: 2em 0;

@@ -41,7 +41,14 @@
 
     <div class="image and button">
         <img src="tess_4inch.png">
-        <button onclick="myFunc(1500)" class="button" id="submit">Submit</button>
+         <button onclick="myFunc(1500)" class="button" id="submit">Add 1500 to list</button>
+         
+         <div class="innerbox">
+            <input type="textbox" width=25 id="listValue">
+            <button onclick="myFunc(document.getElementById('listValue').value)" class="button" id="submit1">Submit</button>
+        </div>
+
+       
 
     </div>
     </div>
