@@ -47,9 +47,6 @@
             <input type="textbox" width=25 id="listValue">
             <button onclick="myFunc(document.getElementById('listValue').value)" class="button" id="submit1">Submit</button>
         </div>
-
-       
-
     </div>
     </div>
 </body>
@@ -71,7 +68,7 @@
     myFunc(3456);
 
 
-    
+    document.getElementById("submit").addEventListener("click", function () { myFunc(1500) } );
 
     
 </script>
